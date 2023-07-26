@@ -1,51 +1,61 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UAV-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, inital-scale=1.0">
-
-    <title>Resume</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>My Resume Website</title>
 </head>
-
-<Body>
-    <div class="container">
-        <div class="profile">
-            <div class="profile_container">
-                <div>
-                    <img src="LMAO.png" alt="Sarthak Sethi">
-                </div>
-            </div>
-                <h1 class="profile_name">
-                    Sarthak Sethi
-                </h1>
-                <p class="profile_title"> Aspiring Software Development -  Applied Math Computational Student at SJSU </p>
-                <p class="profile_description">
-
-                    Hi there I am Sarthak Sethi, my strength is that I am very hardworking 
-                    and fully committed to something when I set my mind to it. My career path 
-                    is that of Software Engineering (SE), I am currently an Applied Math Computational 
-                    Major and plan to switch to SE next semester. My workplace habits are that I am 
-                    very inclusive and make sure everyone’s opinions and concerns are taken into consideration.
-
-                </p>
-                <a class="download_button" href="RESUMELOL.pdf" download="Resume.pdf">Click Here to Download My Resume!</a>
+<body>
+    <header>
+        <h1>Welcome to My Resume Website</h1>
+        <div class="top-actions">
+            <button onclick="location.href="ResumeLOL.pdf" type="button">Download My Resume</button>
+            <a class="github-link" href="https://github.com/1300Sarthak" target="_blank">My GitHub</a>
         </div>
-    </div>
-
-
-
-
-
-
-</Body>
-
-
-
-
-
-
-
+    </header>
+    <nav>
+        <ul>
+            <li><a href="https://github.com/1300Sarthak" target="_blank">My GitHub</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section class="bio">
+            <div class="photo-bio">
+                <img src="LMAO.png" alt="Sarthak Sethi">
+            </div>
+            <div class="text-bio">
+                <h2>About Me</h2>
+                <p>Hi there I am Sarthak Sethi, my strength is that I am very hardworking and fully committed 
+                   to something when I set my mind to it. My career path is that of Software Engineering (SE), 
+                   I am currently an Applied Math Computational Major and plan to switch to SE next semester. 
+                   My workplace habits are that I am very inclusive and make sure everyone’s opinions and concerns 
+                   are taken into consideration..</p>
+            </div>
+        </section>        
+        <section class="skills">
+            <h2>My Skills</h2>
+            <p>Lorem ipsum...</p>
+        </section>
+        <section class="work">
+            <h2>Work Experience</h2>
+            <div class="column">
+                <p>Lorem ipsum...</p>
+            </div>
+            <div class="column">
+                <p>Lorem ipsum...</p>
+            </div>
+        </section>
+        <section class="languages">
+            <h2>Languages</h2>
+            <div class="language">
+                <h3>English</h3>
+                <div class="level" style="width: 90%;">90%</div>
+            </div>
+            <div class="language">
+                <h3>Spanish</h3>
+                <div class="level" style="width: 70%;">70%</div>
+            </div>
+            <!-- Add more languages as needed -->
+        </section>
+    </main>
+</body>
 </html>
