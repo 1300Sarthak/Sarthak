@@ -1,5 +1,5 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Noto Sans', sans-serif;
 }
 
 .bio {
@@ -21,7 +21,6 @@ body {
     margin-left: 20px;
 }
 
-
 nav ul {
     list-style-type: none;
     padding: 0;
@@ -36,19 +35,16 @@ main section {
     margin: 20px 0;
 }
 
-.bio img {
-    width: 150px;
-    height: 150px;
-    object-fit: cover;
-    border-radius: 50%;
-}
 
-.work {
+
+.skills-container,
+.languages-container {
     display: flex;
     justify-content: space-between;
 }
 
-.column {
+.skills-column,
+.languages-column {
     flex: 1;
     margin: 0 10px;
 }
@@ -59,7 +55,7 @@ main section {
 
 .language {
     width: 100%;
-    background-color: #f4f4f4;
+    background-color: #ffffff;
     margin-bottom: 10px;
 }
 
@@ -73,14 +69,13 @@ main section {
 }
 
 footer {
-    background-color: #f8f9fa;
+    background-color: #ffffff;
     padding: 20px;
     text-align: center;
 }
 
-
 header {
-    background-color: #f8f9fa;
+    background-color: #ffffff;
     padding: 20px;
     text-align: center;
 }
@@ -92,7 +87,7 @@ header {
     margin-top: 20px;
 }
 
-button, .github-link {
+button, a.github-link {
     background-color: #3574ea;
     border: none;
     color: white;
@@ -101,24 +96,6 @@ button, .github-link {
     text-decoration: none;
     font-size: 10px;
     cursor: pointer;
-}
-
-button, .download-resume {
-    background-color: #3574ea;
-    border: none;
-    color: white;
-    padding: 7.5px 16px;
-    text-align: center;
-    text-decoration: none;
-    font-size: 10px;
-    cursor: pointer;
-}
-
-.github-link {
     display: inline-block;
-    text-align: center;
-    padding: 7.5px 16px;
-    color: white;
-    font-size: 10px;
     border-radius: 4px;
 }
