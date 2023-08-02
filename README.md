@@ -1,2 +1,4 @@
 # Sarthak
-This is my personal website!
+
+
+Hello everyone, this is my personal website, showing my work experience, education, and accomplishments.
